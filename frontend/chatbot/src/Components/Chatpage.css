@@ -1,0 +1,102 @@
+.chat{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.chat-content{
+    /* background-color: hsl(118, 57%, 31%);  */
+    height: 100%;
+    width: 100%;
+    padding: 50p3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.chat-input{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    padding-bottom: 0;
+    font-size: large;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    bottom: 20px;
+    border-radius: 10px;
+}
+.message-box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    overflow: auto;
+}
+.message-box::-webkit-scrollbar {
+    display: none;
+  }
+.message-areachatbot{
+    width: 100%;
+    background-color: rgb(4, 51, 92);
+    margin-top: 20px;
+    color: white;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: large;
+    display: flex;
+    border-radius: 10px;
+}
+.message-areauser{
+    width: 100%;
+    background-color: rgb(56, 162, 255);
+    margin-top: 20px;
+    color: white;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: large;
+    display: flex;
+    border-radius: 10px;
+}
+.message-icon{
+    height: 100px
+}
+.message-content{
+    padding: 30px;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+.message-divider{
+    background-color: rgba(249, 241, 241, 0.603);
+    width: 100%;
+}
+.portfolio-holder{
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.info-card{
+    border: 1px solid white;
+    padding: 20px;
+}
+
+#code{
+    width: 800px;
+}
+
+.sidebar{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    width: 90%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px
+}

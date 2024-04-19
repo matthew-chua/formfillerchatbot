@@ -1,0 +1,8 @@
+certifi==2024.2.2
+Flask==3.0.2
+Flask_Cors==4.0.0
+Flask_PyMongo==2.3.0
+langchain==0.1.11
+langchain_community==0.0.27
+langchain_openai==0.0.8
+python-dotenv==1.0.1
